@@ -1,0 +1,18 @@
+{
+  "name": "cents",
+  "version": "1.0.0",
+  "description": "Float to cents converter and formatter",
+  "main": "index.js",
+  "scripts": {
+    "test": "phantomjs test/vendor/runner.js test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cowbell/cents.git"
+  },
+  "author": "Kuba Kuźma",
+  "license": "MIT",
+  "devDependencies": {
+    "phantomjs": "^1.9.7-5"
+  }
+}
